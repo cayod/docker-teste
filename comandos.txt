@@ -1,0 +1,20 @@
+Para fazer o venv
+    python3 -m venv venv
+
+Para ativar o venv
+    . venv/bin/activate
+
+Ai é necesssário inserir as bibliotecas necessárias
+
+E criar o arquivo de requirements.txt
+    pip freeze > requirements.txt
+
+O arquivo de requirements vai ficar com todas as 
+dependencias salvas para fazer o programa rodar.
+Para isso é necessário usar o 
+    pip3 install -r requirements.txt
+
+instalar o pre-commit para automatizar as incerção no requirements.txt
+    pip3 install pre-commit
+
+Necessário criar aquivo .yaml para automatização do pre-commit
